@@ -1,0 +1,11 @@
+version: 3
+agent:
+  authtoken: 2TAjALPXaNp7SkBQXccOBl6ZTXS_3wUFAghLmtAbP8coyy31p
+endpoints:
+  - name: api_ml
+    url: https://racer-thorough-presently.ngrok-free.app
+    upstream:
+      url: api_tts:8000
+
+
+
