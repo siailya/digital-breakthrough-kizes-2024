@@ -1,0 +1,8 @@
+version: 3
+agent:
+  authtoken:
+endpoints:
+  - name: api_ml
+    url:
+    upstream:
+      url: api_text2image:8000

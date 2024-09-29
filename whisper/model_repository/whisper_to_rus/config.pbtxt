@@ -1,0 +1,29 @@
+backend: "python"
+max_batch_size: 1
+
+input [
+  {
+    name: "audio",
+    data_type: TYPE_FP32,
+    dims: [ -1 ]
+  },
+  {
+    name: "sample_rate",
+    data_type: TYPE_INT32,
+    dims: [ 1 ]
+  }
+
+]
+
+output [
+  {
+    name: "texts",
+    data_type: TYPE_STRING,
+    dims: [ -1 ]
+  },
+  {
+    name: "timestamps",
+    data_type: TYPE_FP32,
+    dims: [-1, 2]
+  }
+]
