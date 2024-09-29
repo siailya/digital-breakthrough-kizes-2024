@@ -1,1 +1,0 @@
-/opt/tritonserver/bin/tritonserver --model-repository model_repository
