@@ -1,0 +1,13 @@
+services:
+  api_ml:
+    image: 7cdbb3154558
+    container_name: api_asr
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: "nvidia"
+            device_ids: ["0"]
+            capabilities: [gpu]
+    ports:
+      - 8001:8001
