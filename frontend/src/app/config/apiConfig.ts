@@ -1,0 +1,1 @@
+export const BACKEND = import.meta.env.MODE === 'production' ? '' : 'http://localhost:3000';

@@ -1,0 +1,9 @@
+{
+  "common": {
+    "primaryColor": "#D50909FF",
+    "primaryColorHover": "#B72828FF",
+    "primaryColorPressed": "#EE4848FF",
+    "primaryColorSuppl": "rgba(148, 42, 42, 1)",
+    "borderRadius": "15px"
+  }
+}
